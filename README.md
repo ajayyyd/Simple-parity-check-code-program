@@ -1,24 +1,30 @@
-Sender-Receiver Parity Check Program
+# Sender-Receiver Parity Check Program
+
 This project demonstrates a simple client-server program in Python to send an integer number from one computer to another on the same network with basic error detection using a parity bit. The sender calculates the parity bit of the number and sends both the number and the parity bit to the receiver. The receiver checks the parity to confirm data integrity.
 
-Features
-Single Integer Transmission: The sender can transmit any integer number.
-Parity Check: Adds a parity bit to detect errors in data transmission.
-Client-Server Communication: Uses Python’s socket library for network communication.
-Requirements
-Python 3.x installed on both devices.
-Both devices (PC and Laptop) must be connected to the same network.
-Firewall permissions for the selected port (default: 12345) if needed.
-Files
-sender.py: The sender script that allows the user to input a number, calculate its parity bit, and send both to the receiver.
-receiver.py: The receiver script that listens for incoming data, extracts the number and parity bit, and verifies the parity.
-Usage
-Step 1: Clone the Repository
-bash
-Copy code
+## Features
+- **Single Integer Transmission**: The sender can transmit any integer number.
+- **Parity Check**: Adds a parity bit to detect errors in data transmission.
+- **Client-Server Communication**: Uses Python’s `socket` library for network communication.
+
+## Requirements
+- Python 3.x installed on both devices.
+- Both devices (PC and Laptop) must be connected to the same network.
+- Firewall permissions for the selected port (default: 12345) if needed.
+
+## Files
+- **sender.py**: The sender script that allows the user to input a number, calculate its parity bit, and send both to the receiver.
+- **receiver.py**: The receiver script that listens for incoming data, extracts the number and parity bit, and verifies the parity.
+
+## Usage
+
+### Step 1: Clone the Repository
+
+
 git clone https://github.com/your-username/sender-receiver-parity-check.git
 cd sender-receiver-parity-check
-Step 2: Set Up the Receiver (on the Laptop)
+
+## Step 2: Set Up the Receiver (on the Laptop)
 Open a terminal on the laptop.
 
 Run the receiver script:
