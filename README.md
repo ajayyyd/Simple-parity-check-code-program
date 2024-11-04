@@ -19,10 +19,8 @@ This project demonstrates a simple client-server program in Python to send an in
 ## Usage
 
 ### Step 1: Clone the Repository
-
-
-git clone https://github.com/your-username/sender-receiver-parity-check.git
-cd sender-receiver-parity-check
+  - **git clone https://github.com/your-username/sender-receiver-parity-check.git
+  - **cd sender-receiver-parity-check
 
 ## Step 2: Set Up the Receiver (on the Laptop)
 Open a terminal on the laptop.
@@ -34,7 +32,7 @@ Copy code
 python receiver.py
 The receiver will start listening on port 12345 for incoming data.
 
-Step 3: Set Up the Sender (on the PC)
+## Step 3: Set Up the Sender (on the PC)
 Open a terminal on the PC.
 
 Run the sender script:
@@ -64,10 +62,10 @@ sender-receiver-parity-check/
 ├── sender.py       # Script to send a number with a parity bit
 ├── receiver.py     # Script to receive the number and verify the parity
 └── README.md       # Project documentation
-How It Works
-Sender: Accepts an integer input from the user, calculates its parity bit, and sends both the number and parity to the receiver.
-Receiver: Listens for incoming data, separates the number and the parity bit, calculates the expected parity, and verifies it against the received parity.
+## How It Works
+- **Sender: Accepts an integer input from the user, calculates its parity bit, and sends both the number and parity to the receiver.
+- **Receiver: Listens for incoming data, separates the number and the parity bit, calculates the expected parity, and verifies it against the received parity.
 Future Improvements
-Add support for more data types.
-Implement additional error detection mechanisms.
-Add a graphical interface to make the tool easier to use.
+- **Add support for more data types.
+-** Implement additional error detection mechanisms.
+- **Add a graphical interface to make the tool easier to use.
